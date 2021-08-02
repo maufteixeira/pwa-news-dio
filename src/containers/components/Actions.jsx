@@ -4,7 +4,7 @@ import CopyIcon from '../../images/copy.svg';
 
 const navigatorHasShare = navigator.share
 
-const URL = 'http://localhost:3001/'
+const URL = 'https://pwa-news-react.netlify.app'
 
 function Actions({ post, subject }) {
   const { id, title } = post
